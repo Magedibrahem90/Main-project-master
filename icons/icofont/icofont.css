@@ -1,0 +1,652 @@
+/*! 
+* @package IcoFont 
+* @version 1.0.1 
+* @author IcoFont https://icofont.com 
+* @copyright Copyright (c) 2015 - 2019 IcoFont 
+* @license - https://icofont.com/license/
+*/
+
+@font-face
+{
+ 
+  font-family: "IcoFont";
+font-weight: normal;
+font-style: "Regular";
+src: url("./fonts/icofont.woff2") format("woff2"),
+url("./fonts/icofont.woff") format("woff");
+}
+
+[class^="icofont-"], [class*=" icofont-"]
+{
+  font-family: 'IcoFont' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  line-height: 1;
+/* Better Font Rendering =========== */
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
+.icofont-blood-drop:before
+{
+  content: "\ec0d";
+}
+
+.icofont-ambulance:before
+{
+  content: "\ec09";
+}
+
+.icofont-ambulance-cross:before
+{
+  content: "\ec08";
+}
+
+.icofont-ambulance-crescent:before
+{
+  content: "\ec07";
+}
+
+.icofont-aids:before
+{
+  content: "\ec06";
+}
+
+.icofont-blood-test:before
+{
+  content: "\ec0e";
+}
+
+.icofont-blood:before
+{
+  content: "\ec0f";
+}
+
+.icofont-brain-alt:before
+{
+  content: "\ec10";
+}
+
+.icofont-capsule:before
+{
+  content: "\ec12";
+}
+
+.icofont-crutch:before
+{
+  content: "\ec13";
+}
+
+.icofont-disabled:before
+{
+  content: "\ec14";
+}
+
+.icofont-dna-alt-1:before
+{
+  content: "\ec15";
+}
+
+.icofont-first-aid:before
+{
+  content: "\ec1d";
+}
+
+.icofont-first-aid-alt:before
+{
+  content: "\ec1c";
+}
+
+.icofont-drug:before
+{
+  content: "\ec1b";
+}
+
+.icofont-drug-pack:before
+{
+  content: "\ec1a";
+}
+
+.icofont-doctor:before
+{
+  content: "\ec19";
+}
+
+.icofont-doctor-alt:before
+{
+  content: "\ec18";
+}
+
+.icofont-heart-beat:before
+{
+  content: "\ec1f";
+}
+
+.icofont-heart-beat-alt:before
+{
+  content: "\ec1e";
+}
+
+.icofont-heartbeat:before
+{
+  content: "\ec20";
+}
+
+.icofont-hospital:before
+{
+  content: "\ec22";
+}
+
+.icofont-icu:before
+{
+  content: "\ec23";
+}
+
+.icofont-injection-syringe:before
+{
+  content: "\ec24";
+}
+
+.icofont-laboratory:before
+{
+  content: "\ec25";
+}
+
+.icofont-nurse:before
+{
+  content: "\ec29";
+}
+
+.icofont-operation-theater:before
+{
+  content: "\ec2b";
+}
+
+.icofont-paralysis-disability:before
+{
+  content: "\ec2c";
+}
+
+.icofont-patient-bed:before
+{
+  content: "\ec2d";
+}
+
+.icofont-medical-sign-alt:before
+{
+  content: "\ec26";
+}
+
+.icofont-medical-sign:before
+{
+  content: "\ec27";
+}
+
+.icofont-pills:before
+{
+  content: "\ec2f";
+}
+
+.icofont-pulse:before
+{
+  content: "\ec31";
+}
+
+.icofont-stethoscope-alt:before
+{
+  content: "\ec32";
+}
+
+.icofont-thermometer:before
+{
+  content: "\ec3b";
+}
+
+.icofont-tooth:before
+{
+  content: "\ec3c";
+}
+
+.icofont-test-tube:before
+{
+  content: "\ec39";
+}
+
+.icofont-test-bottle:before
+{
+  content: "\ec38";
+}
+
+.icofont-tablets:before
+{
+  content: "\ec37";
+}
+
+.icofont-surgeon:before
+{
+  content: "\ec36";
+}
+
+.icofont-xray:before
+{
+  content: "\ec3d";
+}
+
+.icofont-boy:before
+{
+  content: "\eceb";
+}
+
+.icofont-business-man-alt-1:before
+{
+  content: "\ecec";
+}
+
+.icofont-business-man-alt-2:before
+{
+  content: "\eced";
+}
+
+.icofont-business-man-alt-3:before
+{
+  content: "\ecee";
+}
+
+.icofont-business-man:before
+{
+  content: "\ecef";
+}
+
+.icofont-funky-man:before
+{
+  content: "\ecf1";
+}
+
+.icofont-female:before
+{
+  content: "\ecf0";
+}
+
+.icofont-girl-alt:before
+{
+  content: "\ecf2";
+}
+
+.icofont-support:before
+{
+  content: "\ecfa";
+}
+
+.icofont-people:before
+{
+  content: "\ecf9";
+}
+
+.icofont-man-in-glasses:before
+{
+  content: "\ecf8";
+}
+
+.icofont-kid:before
+{
+  content: "\ecf7";
+}
+
+.icofont-hotel-boy:before
+{
+  content: "\ecf6";
+}
+
+.icofont-hotel-boy-alt:before
+{
+  content: "\ecf5";
+}
+
+.icofont-group:before
+{
+  content: "\ecf4";
+}
+
+.icofont-girl:before
+{
+  content: "\ecf3";
+}
+
+.icofont-user-alt-1:before
+{
+  content: "\ecfb";
+}
+
+.icofont-user-alt-2:before
+{
+  content: "\ecfc";
+}
+
+.icofont-user-alt-3:before
+{
+  content: "\ecfd";
+}
+
+.icofont-user-alt-4:before
+{
+  content: "\ecfe";
+}
+
+.icofont-user-alt-5:before
+{
+  content: "\ecff";
+}
+
+.icofont-user-alt-6:before
+{
+  content: "\ed00";
+}
+
+.icofont-user-alt-7:before
+{
+  content: "\ed01";
+}
+
+.icofont-user-female:before
+{
+  content: "\ed02";
+}
+
+.icofont-users-alt-5:before
+{
+  content: "\ed0a";
+}
+
+.icofont-users-alt-2:before
+{
+  content: "\ed07";
+}
+
+.icofont-woman-in-glasses:before
+{
+  content: "\ed10";
+}
+
+.icofont-waiter:before
+{
+  content: "\ed0f";
+}
+
+.icofont-waiter-alt:before
+{
+  content: "\ed0e";
+}
+
+.icofont-users-alt-1:before
+{
+  content: "\ed06";
+}
+
+.icofont-user-suited:before
+{
+  content: "\ed04";
+}
+
+.icofont-users-alt-6:before
+{
+  content: "\ed0b";
+}
+
+.icofont-user-male:before
+{
+  content: "\ed03";
+}
+
+.icofont-xs
+{
+  font-size: .5em;
+}
+
+.icofont-sm
+{
+  font-size: .75em;
+}
+
+.icofont-md
+{
+  font-size: 1.25em;
+}
+
+.icofont-lg
+{
+  font-size: 1.5em;
+}
+
+.icofont-1x
+{
+  font-size: 1em;
+}
+
+.icofont-2x
+{
+  font-size: 2em;
+}
+
+.icofont-3x
+{
+  font-size: 3em;
+}
+
+.icofont-4x
+{
+  font-size: 4em;
+}
+
+.icofont-5x
+{
+  font-size: 5em;
+}
+
+.icofont-6x
+{
+  font-size: 6em;
+}
+
+.icofont-7x
+{
+  font-size: 7em;
+}
+
+.icofont-8x
+{
+  font-size: 8em;
+}
+
+.icofont-9x
+{
+  font-size: 9em;
+}
+
+.icofont-10x
+{
+  font-size: 10em;
+}
+
+.icofont-fw
+{
+  text-align: center;
+  width: 1.25em;
+}
+
+.icofont-ul
+{
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.icofont-ul > li
+{
+  position: relative;
+  line-height: 2em;
+}
+
+.icofont-ul > li .icofont
+{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icofont-border
+{
+  border: solid 0.08em #f1f1f1;
+  border-radius: .1em;
+  padding: .2em .25em .15em;
+}
+
+.icofont-pull-left
+{
+  float: left;
+}
+
+.icofont-pull-right
+{
+  float: right;
+}
+
+.icofont.icofont-pull-left
+{
+  margin-right: .3em;
+}
+
+.icofont.icofont-pull-right
+{
+  margin-left: .3em;
+}
+
+.icofont-spin
+{
+  -webkit-animation: icofont-spin 2s infinite linear;
+  animation: icofont-spin 2s infinite linear;
+  display: inline-block;
+}
+
+.icofont-pulse
+{
+  -webkit-animation: icofont-spin 1s infinite steps(8);
+  animation: icofont-spin 1s infinite steps(8);
+  display: inline-block;
+}
+
+@-webkit-keyframes icofont-spin
+{
+  0%
+  {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100%
+  {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes icofont-spin
+{
+  0%
+  {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100%
+  {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.icofont-rotate-90
+{
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.icofont-rotate-180
+{
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.icofont-rotate-270
+{
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.icofont-flip-horizontal
+{
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.icofont-flip-vertical
+{
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+.icofont-flip-horizontal.icofont-flip-vertical
+{
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(-1, -1);
+  transform: scale(-1, -1);
+}
+
+:root .icofont-rotate-90,
+	:root .icofont-rotate-180,
+	:root .icofont-rotate-270,
+	:root .icofont-flip-horizontal,
+	:root .icofont-flip-vertical
+{
+  -webkit-filter: none;
+  filter: none;
+  display: inline-block;
+}
+
+.icofont-inverse
+{
+  color: #fff;
+}
+
+.sr-only
+{
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.sr-only-focusable:active,
+	.sr-only-focusable:focus
+{
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+	
