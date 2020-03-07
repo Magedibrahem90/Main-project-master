@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="ar">	
+	<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="نبض هي مبادرة بالتعاون مع وزارة الصحة تسعى إلى تقليص فجوة التواصل بين المتبرعين وبنوك الدم حتى تصبح عملية التبرع بالدم أسهل و أسرع">
+        <meta name="keyword" content="تبرع بالدم , تبرع , دم,بنك الدم ,مريض">
+        <meta name="generator" content="vs-code">   
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="icons/icofont/icofont.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Changa&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="icons/font/flaticon.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-rtl.css">
+        <link rel="stylesheet" href="css/index.css"/>	
+        <link rel="icon" href="images/index/heart-logo.png">
+        <title>نبض</title>
+    </head>
+    
+    <body id="index">
+        <!-- ---------start loading page-------- -->
+        <div class="container-fluid">
+                <div id="loading">
+                    <div id="monitor">
+                        <svg version="1.1" id="ecg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 500 200" style="enable-background:new 0 0 500 200;" xml:space="preserve">
+                            <g>
+                            <polyline class="ekg" points="486.6,113.8 328.2,113.8 310.3,132.3 296,70.7 246.8,127.4 241.6,120.2 233.9,166.4 227,27.6 
+                                213.2,118.3 211.8,112.3 205.1,126.1 198.2,108.5 194.1,124.4 184.5,92.9 174.1,113 4.3,113 	"/>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+        </div>
+         <!-- ---------End loading page --------- -->        
+        
+         <!-- ----------start nav bar----------  -->
+         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+                    <div class="container">
+                        <a class="navbar-brand" href="#">نبض<div id="wrapper">
+                            <div id="pulsingheart"></div>
+                            </div>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                            <a class="nav-link" href="#">من نحنٌ</a>
+                                        </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">سياستنا</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">ساعدٌنا</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">التبرٌعات السابقه</a>
+                                </li>
+                                <li class="nav-item login-border">
+                                    <a class="nav-link" href="#">معلومات تهمك </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <button class="btn btn-outline-info">تسجيل الدخول</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+        </nav>
+        
+        <!-- ----------End nav bar----------  -->
+
+        <!-- ----------start header----------  -->
+           
+        <header class="pb-4 mb-5">
+                        <div class="d-flex justify-content-center">
+                            <div class="container  header-data ">
+                                <div class="row pt-5 mt-5">
+                                    <div class="col-md-6 col-sm-12 pl-0">
+                                        <div class="header-content d-flex align-items-center h-100">
+                                           <div>
+                                                <p>نبض هي مبادرة بالتعاون مع وزارة الصحة تسعى إلى تقليص فجوة التواصل بين المتبرعين وبنوك الدم حتى تصبح عملية التبرع بالدم أسهل و أسرع</p>
+                                            <div class="header-btns text-center">
+                                                <a href="donor.html">
+                                                        <button class="btn btn-home-donor" >مٌتبرع</button>
+                                                </a>
+                                                <a id="btn-donor">
+                                                        <button class="btn" >مريض</button>
+                                                </a>
+                                            </div>
+                                           </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12  pr-0">
+                                        <div class="header-background">
+                                            <img class="img-fluid" src="images/index/OBJECTS.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        </header>
+        
+         <!-- ----------End header----------  -->
+
+          <!-- ----------start section patient----------  -->
+        <section class="patients">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="patients-content">
+                                    <h3 class="danger">ساعدنا !</h3>
+                                    <p>
+                                        هناك  <span class="patients-number">9</span> أشخاص ينتظرون تبرعك اليوم
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                       <div class="row">
+                           <div class="col-md-12">
+                                <div class="main-content">
+                                        <div class="owl-carousel owl-theme  patients ">
+                                            <div class="item">
+                                                <div class="card patient-card">
+                                                    <div class="patient-img">
+                                                        <img src="images/index/man-1.png" alt="patient profile photo">
+                                                    </div>
+                                                    <div class="patient-data">
+                                                            <p><i class="icofont-user-alt-2"></i>باهر عصام</p>
+                                                        <p>AB+<i class="icofont-blood-drop"></i></p>
+                                                        
+                                                        <p><i class="icofont-hospital"></i>مستشفي المعادي</p>
+                                                    </div>
+                                                    <a href="#" target="blank" class="text-right">منذ 12 ساعه</a>
+                                                    <div class="patient-overlay">
+                                                        <div>
+                                                            <button class="btn btn-warning">تواصل معه</button>
+                                                            <button class="btn btn-success">إعرف قصِته</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="card patient-card">
+                                                    <div class="patient-img">
+                                                        <img src="images/index/man.png" alt="patient profile photo">
+                                                    </div>
+                                                    <div class="patient-data">
+                                                            <p><i class="icofont-user-alt-2"></i>باهر عصام</p>
+                                                        <p>AB+<i class="icofont-blood-drop"></i></p>
+                                                        
+                                                        <p><i class="icofont-hospital"></i>مستشفي المعادي</p>
+                                                    </div>
+                                                    <a href="#" target="blank" class="text-right">منذ 12 ساعه</a>
+                                                    <div class="patient-overlay">
+                                                        <div>
+                                                            <button class="btn btn-warning">تواصل معه</button>
+                                                            <button class="btn btn-success">إعرف قصِته</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="card patient-card">
+                                                    <div class="patient-img">
+                                                        <img src="images/index/man-1.png" alt="patient profile photo">
+                                                    </div>
+                                                    <div class="patient-data">
+                                                            <p><i class="icofont-user-alt-2"></i>باهر عصام</p>
+                                                        <p>AB+<i class="icofont-blood-drop"></i></p>
+                                                        
+                                                        <p><i class="icofont-hospital"></i>مستشفي المعادي</p>
+                                                    </div>
+                                                    <a href="#" target="blank" class="text-right">منذ 12 ساعه</a>
+                                                    <div class="patient-overlay">
+                                                        <div>
+                                                            <button class="btn btn-warning">تواصل معه</button>
+                                                            <button class="btn btn-success">إعرف قصِته</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="card patient-card">
+                                                    <div class="patient-img">
+                                                        <img src="images/index/man-2.png" alt="patient profile photo">
+                                                    </div>
+                                                    <div class="patient-data">
+                                                            <p><i class="icofont-user-alt-2"></i>باهر عصام</p>
+                                                        <p>AB+<i class="icofont-blood-drop"></i></p>
+                                                        
+                                                        <p><i class="icofont-hospital"></i>مستشفي المعادي</p>
+                                                    </div>
+                                                    <a href="#" target="blank" class="text-right">منذ 12 ساعه</a>
+                                                    <div class="patient-overlay">
+                                                        <div>
+                                                            <button class="btn btn-warning">تواصل معه</button>
+                                                            <button class="btn btn-success">إعرف قصِته</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="card patient-card">
+                                                    <div class="patient-img">
+                                                        <img src="images/index/man-3.png" alt="patient profile photo">
+                                                    </div>
+                                                    <div class="patient-data">
+                                                            <p><i class="icofont-user-alt-2"></i>باهر عصام</p>
+                                                        <p>AB+<i class="icofont-blood-drop"></i></p>
+                                                        
+                                                        <p><i class="icofont-hospital"></i>مستشفي المعادي</p>
+                                                    </div>
+                                                    <a href="#" target="blank" class="text-right">منذ 12 ساعه</a>
+                                                    <div class="patient-overlay">
+                                                        <div>
+                                                            <button class="btn btn-warning">تواصل معه</button>
+                                                            <button class="btn btn-success">إعرف قصِته</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="card patient-card">
+                                                    <div class="patient-img">
+                                                        <img src="images/index/man-4.png" alt="patient profile photo">
+                                                    </div>
+                                                    <div class="patient-data">
+                                                            <p><i class="icofont-user-alt-2"></i>باهر عصام</p>
+                                                        <p>AB+<i class="icofont-blood-drop"></i></p>
+                                                        
+                                                        <p><i class="icofont-hospital"></i>مستشفي المعادي</p>
+                                                    </div>
+                                                    <a href="#" target="blank" class="text-right">منذ 12 ساعه</a>
+                                                    <div class="patient-overlay">
+                                                        <div>
+                                                            <button class="btn btn-warning">تواصل معه</button>
+                                                            <button class="btn btn-success">إعرف قصِته</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="card patient-card">
+                                                    <div class="patient-img">
+                                                        <img src="images/index/girl.png" alt="patient profile photo">
+                                                    </div>
+                                                    <div class="patient-data">
+                                                            <p><i class="icofont-user-alt-2"></i>باهر عصام</p>
+                                                        <p>AB+<i class="icofont-blood-drop"></i></p>
+                                                        
+                                                        <p><i class="icofont-hospital"></i>مستشفي المعادي</p>
+                                                    </div>
+                                                    <a href="#" target="blank" class="text-right">منذ 12 ساعه</a>
+                                                    <div class="patient-overlay">
+                                                        <div>
+                                                            <button class="btn btn-warning">تواصل معه</button>
+                                                            <button class="btn btn-success">إعرف قصِته</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="card patient-card">
+                                                    <div class="patient-img">
+                                                        <img src="images/index/girl-1.png" alt="patient profile photo">
+                                                    </div>
+                                                    <div class="patient-data">
+                                                            <p><i class="icofont-user-alt-2"></i>باهر عصام</p>
+                                                        <p>AB+<i class="icofont-blood-drop"></i></p>
+                                                        
+                                                        <p><i class="icofont-hospital"></i>مستشفي المعادي</p>
+                                                    </div>
+                                                    <a href="#" target="blank" class="text-right">منذ 12 ساعه</a>
+                                                    <div class="patient-overlay">
+                                                        <div>
+                                                            <button class="btn btn-warning">تواصل معه</button>
+                                                            <button class="btn btn-success">إعرف قصِته</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="card patient-card">
+                                                    <div class="patient-img">
+                                                        <img src="images/index/boy.png" alt="patient profile photo">
+                                                    </div>
+                                                    <div class="patient-data">
+                                                            <p><i class="icofont-user-alt-2"></i>باهر عصام</p>
+                                                        <p>AB+<i class="icofont-blood-drop"></i></p>
+                                                        
+                                                        <p><i class="icofont-hospital"></i>مستشفي المعادي</p>
+                                                    </div>
+                                                    <a href="#" target="blank" class="text-right">منذ 12 ساعه</a>
+                                                    <div class="patient-overlay">
+                                                        <div>
+                                                            <button class="btn btn-warning">تواصل معه</button>
+                                                            <button class="btn btn-success">إعرف قصِته</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="card patient-card">
+                                                    <div class="patient-img">
+                                                        <img src="images/index/boy-1.png" alt="patient profile photo">
+                                                    </div>
+                                                    <div class="patient-data">
+                                                            <p><i class="icofont-user-alt-2"></i>باهر عصام</p>
+                                                        <p>AB+<i class="icofont-blood-drop"></i></p>
+                                                        
+                                                        <p><i class="icofont-hospital"></i>مستشفي المعادي</p>
+                                                    </div>
+                                                    <a href="#" target="blank" class="text-right">منذ 12 ساعه</a>
+                                                    <div class="patient-overlay">
+                                                        <div>
+                                                            <button class="btn btn-warning">تواصل معه</button>
+                                                            <button class="btn btn-success">إعرف قصِته</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="card patient-card">
+                                                    <div class="patient-img">
+                                                        <img src="images/index/girl-1.png" alt="patient profile photo">
+                                                    </div>
+                                                    <div class="patient-data">
+                                                            <p><i class="icofont-user-alt-2"></i>باهر عصام</p>
+                                                        <p>AB+<i class="icofont-blood-drop"></i></p>
+                                                        
+                                                        <p><i class="icofont-hospital"></i>مستشفي المعادي</p>
+                                                    </div>
+                                                    <a href="#" target="blank" class="text-right">منذ 12 ساعه</a>
+                                                    <div class="patient-overlay">
+                                                        <div>
+                                                            <button class="btn btn-warning">تواصل معه</button>
+                                                            <button class="btn btn-success">إعرف قصِته</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-theme">
+                                            <div class="owl-controls">
+                                                <div class="custom-nav owl-nav"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                           </div>
+
+                       </div>
+                    </div>
+        </section>
+         <!-- ----------End section patient----------  -->
+
+
+
+		<!-------Start achievements------>
+		
+		<section class="achievements pt-5 mt-5"> 
+			<div class="container text-center">
+				<h3 class="underline text-danger">  إنجازتنا</h3>
+				<div class="row py-5 ">
+					<div class="col-md-3 mb-3">
+						<div class="counter">
+						<img src="images/index/calendar.png"> 
+						<h2 class="number">50</h2>					
+						</div>
+					</div>
+					<div class="col-md-3 mb-3">
+						<div class="counter">
+						<img src="images/index/ambulance.png"> 
+						<h2 class="number">350</h2>	
+						</div>
+					</div>
+					<div class="col-md-3 mb-3">
+						<div class="counter">
+						<img src="images/index/blood-bag.png"> 
+						<h2 class="number">1000</h2>	
+					</div>
+					</div>
+					<div class="col-md-3 mb-3">
+						<div class="counter">
+						<img src="images/index/blood-transfusion (1).png">
+						<h2 class="number">976</h2>					
+						</div>
+					
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		
+		<!--------end achievements------->
+		
+		<!-------Start map 1------>
+		<section class="map py-5">
+			<div class="container py-5">	
+				<div class="row">
+					<div class="col-md-6 mb-3">
+						<div class="map-img">
+							<img src="images/index/Path 346.svg" class="img-fluid">
+						</div>
+						<div class="img-overlay">
+						<img src="images/index/home-svg.svg" class="img-fluid">
+						</div>
+					</div>	
+					<div class="col-md-6">
+						<div class="map-info py-5">
+							<div class="map-caption">
+									<h2>الموقع</h2>
+							</div>		
+							<p>
+							أيس كايلليوم دو أميت ,كونسيكتيتور أدايبا يسكينج ألياي,س
+								أيس كايلليوم دو أميت ,كونسيكتيتور أدايبا يسكينج أليايت,س
+							</p>
+						</div>
+						<div class="elmwq3 d-flex">
+						<div class="elmwq3-icons text-center">	
+								<i class="flaticon-follow"></i>
+						</div>
+							<p>أيس كايلليوم دو أميت ,كونسيكتيتور أدايبا يسكينج ألياي</p>
+							
+						</div>
+						
+						<div class="elmwq3 d-flex">
+						<div class="elmwq3-icons text-center">
+							
+						<i class="flaticon-slideshare-logotype "></i>
+							</div>
+							<p>أيس كايلليوم دو أميت ,كونسيكتيتور أدايبا يسكينج ألياي</p>
+							
+							</div>
+						
+						
+						<div class="elmwq3 d-flex">
+						<div class="elmwq3-icons text-center">
+							
+						<i class="flaticon-cellphone "></i>
+							
+							</div>
+							<p>أيس كايلليوم دو أميت ,كونسيكتيتور أدايبا يسكينج ألياي</p>
+							
+							</div>
+						
+						
+						
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</section>
+		<!-------end map 1------>
+	
+		<!-------Start blood bank 1------>
+		<section class="blood-bank py-5">   
+		<div class="container text-center">
+			<h3 class="text-danger">          بنك الدم      </h3>
+			<div class="row py-5 text-center">
+				<div class="col-md-3 mb-3">
+					<div class="blood">
+					<img src="images/index/blood-transfusion.png">
+					</div>
+					<h2 class="number">50</h2>
+				
+				</div>
+				<div class="col-md-3 mb-3">
+					<div class="blood">
+					<img src="images/index/blood-transfusion.png">
+					</div>
+					<h2 class="number">350</h2>	
+				</div>
+				<div class="col-md-3 mb-3">
+					<div class="blood">
+					<img src="images/index/blood-transfusion.png">
+					</div>
+					<h2 class="number">1000</h2>	
+				</div>
+				<div class="col-md-3 mb-3">
+				<div class="blood">
+				<img src="images/index/blood-transfusion.png">
+				</div>
+				<h2 class="number">976</h2>
+				</div>
+			</div>
+		</div>	
+		</section>
+		
+        <!--------end blood bank 1-------->
+          
+       <!--------start Main footer------->
+		<section class="footer pt-5 bp-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h2 class="help">ساعدنا</h2>
+                        <p> 
+                        نرحب بجميع افراد والجهات المهتمة بدعم مبادرة نبض
+                        <br>
+                          تعاونكم يمكّننا من التقدم نحو بناء مجتمع معطاء </p>
+                          <label class="bold">الإسم بالكامل</label>
+                          <input type="text" class="form-control w-75 mb-3 " name="nameUser" ><label class="bold">البريد الإلكتروني</label>
+                          <input type="email" class="form-control w-75 mb-3 " name="emailUser" >	<label class="bold">رقم الهاتف</label>
+                          <input type="tel" class="form-control w-75 mb-3 " name="phoneUser" placeholder="+02">
+                          
+                    </div>		
+                    <div class="col-md-5 mt-3">
+                                    <div class="call-me">	
+                                            <div class="btn-group btn-group-toggle pb-5" data-toggle="buttons">
+                                                    <label class="btn btn-btn active">
+                                                        <input type="radio" name="status-person" id="option1" autocomplete="off" checked> متطوع
+                                                    </label>
+                                                    <label class="btn btn-btn">
+                                                        <input type="radio" name="status-person" id="option2" autocomplete="off"> راعي
+                                                    </label>
+                                                    <label class="btn btn-btn">
+                                                        <input type="radio" name="status-person" id="option3" autocomplete="off"> اخري
+                                                    </label>
+                                            </div>
+                                        <h2>راسلنا</h2>
+                                        <textarea></textarea>
+                                        <button class="btn btn-send ">إرسال</button>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <!-- <div class="position-relative h-100">
+                                            <img src="images/progress/Path footer-2.svg" class="img-fluid"> 
+                                    </div> -->
+                    </div>
+                </div>
+            </div>	
+            
+        </section>
+        <!--------End Main footer------->
+
+        <!--------start small footer------->
+        <footer class="footer-copyright py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 bold ">
+                        <span>  كل الحقوق محفوظة لمبادرة نبض 2019&copy; 
+                    <br>
+                    نبض هي مبادرة مدعومة من وزارة الصحة</span>
+                    </div>
+                    <div class="col-md-4 ">
+                    <div class="icon-social  text-center">
+                        <a href="#"><i class="flaticon-instagram-logo fa-lg"></i></a>
+                        <a href="#"><i class="flaticon-twitter fa-lg"></i></a>
+                        <a href="#"><i class="flaticon-facebook-letter-logo fa-lg"></i></a>
+
+        
+                    </div>
+                    </div>
+                    <div class="col-md-4 bold">
+                        <span> باستخدامك هذا الموقع، فإنك توافق على شروط الخدمة و سياسية الخصوصية</span>
+        
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--------end small footer------->
+		
+        
+          
+
+        <!--------start pop-up form------->
+          <div class="lightbox-container d-none align-items-center justify-content-center" id="lightbox">
+                <div class="form-submit-container w-75">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="right-patient-div mt-2 ">
+                                     <span class="text-white text-danger d-block thank">شكرًا لك!!</span>
+                                     <p class=" pl-4">سيهتم الفريق التقني بإضافة تبرعاتك
+                                       في أقرب وقت ممكن</p>
+                                   <img src="images/index/271351-P5XHJK-721.svg" class="mt-2">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                 <form class="px-5 pt-5 pb-3">
+                                         <div class="form-row">
+                                           <div class="form-group col-md-6">
+                                             <label >الاسم</label>
+                                             <input type="text" class="form-control form-costumization" id="inputName" placeholder="برجاء ادخال الاسم">
+                                           </div>
+                                           <div class="form-group col-md-6">
+                                             <label for="inputPassword4">رقم الهاتف</label>
+                                             <input type="text" class="form-control form-costumization" id="inputTele" placeholder="+002">
+                                           </div>
+                                         </div>
+                                         <div class="form-group">
+                                           <label for="inputAddress">البريد الايكتروني</label>
+                                           <input type="email" class="form-control form-costumization" id="inputEmail" placeholder="برجاء ادخال البريد الايكتروني">
+                                         </div>
+                                         <div class="form-row">
+                                           <div class="form-group col-md-6">
+                                                 <label for="inputState">المحافظه</label>
+                                                     <select id="inputState" class="form-control form-costumization">
+                                                         <option selected>القاهره</option>
+                                                         <option>الجيزه</option>
+                                                         <option>الاسكندريه</option>
+                                                         <option>الشرقيه</option>
+                                                         <option>مرسي مطروح</option>
+                                                     </select>
+                                           </div>
+                                           <div class="form-group col-md-6">
+                                             <label for="inputRegion">المنطقه</label>
+                                             <select id="inputRegion" class="form-control form-costumization">
+                                               <option selected>الدقي</option>
+                                               <option>6 اكتوبر</option>
+                                               <option>العاشر من رمضان</option>
+                                               <option>شبرا</option>
+                                               <option>مصر الجديده</option>
+                                             </select>
+                                           </div>
+                                         </div>
+                                 
+                                             <div class="form-row">
+                                               <div class="form-group col-md-6">
+                                                 <div class="form-check col-lg-12">
+                                                     <p> الجنس</p>
+                                                     <div>
+                                                       <label class="form-check-label mr-4" >ذكر</label>
+                                                     <input class="form-check-input" name="gender" type="radio">  
+                                                     </div>
+                                                    <div>
+                                                     <label class="form-check-label mr-4 ">انثي</label>
+                                                     <input class="form-check-input " name="gender" type="radio"> 
+                                                    </div>
+                                                 </div>
+                                               </div>
+                                               <div class="form-group col-md-6">
+                                                       <div class="form-check col-lg-12">
+                                                           <p> العمر</p>            
+                                                           <input type="text" class="form-control form-costumization" id="inputAge" placeholder="السن">                 
+                                                       </div>
+                                                     </div>
+                                             </div>
+                                       
+                                         <div class="form-group col-md-6">
+                                              <label for="inputBlood">فصيله الدم</label>
+                                              <select id="inputBlood" class="form-control form-costumization">
+                                                 <option selected>A+</option>
+                                                 <option>AB+</option>
+                                                 <option>B+</option>
+                                                 <option>O+</option>
+                                                 <option>A-</option>
+                                                 <option>AB-</option>
+                                                 <option>B-</option>
+                                                 <option>O-</option>
+                                               </select>
+                                          </div>     
+                                          <div class="form-group col-lg-12 mt-3">
+                                                 <label for="exampleFormControlTextarea1  ">سبب طلب التبرع</label>
+                                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                               </div>
+                                         <button type="submit" class="btn btn-danger my-5 float-right">تسجيل الدخول</button>
+                                         <div class="clearfix"></div>
+                                  </form>
+ 
+                            </div>
+                        </div>
+                    </div>
+ 
+                </div>
+ 
+           </div>
+        <!--------endpop-up form------->
+            
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+		
+		
+	
+		
+	<script src="js/jquery-3.4.1.min.js"> </script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/index.js"></script>
+
+	
+</body>
+</html>

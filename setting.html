@@ -1,0 +1,231 @@
+<html>
+	<head>
+        <title></title>
+        <link href="https://fonts.googleapis.com/css?family=Changa&display=swap" rel="stylesheet">
+		<meta charset="UTF-8"/>
+        <link rel="stylesheet" href="css/all.min.css"/>
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="icons/font/flaticon.css">
+        <link rel="stylesheet" href="css/bootstrap-rtl.css">
+		<link rel="stylesheet" href="css/index.css"/>
+		<link rel="stylesheet" href="icons/fontawesome/fontawesome/css/font-awesome.css">
+
+		
+		
+	
+		
+	</head>
+	<body id="setting">
+		
+			<!-- user profile setting -->
+			<!-- settin nav bar -->
+			<ul id="setting-nav" class="nav nav-pills justify-content-end p-3">
+				<li class="nav-item">
+				  <a class="nav-link " href="profile.html">
+					
+				  </a>
+				</li>
+			  </ul>
+
+			  <!-- setting layout -->
+			 <section>
+				<!-- heading -->
+				 <div class="container mt-5 main-header">
+					 <h2>الأعدادات</h2>
+					 <hr>
+				 </div>
+				 <!-- layout -->
+				 <div class="container">
+					 <div class="row">
+						 <!-- profile img -->
+						 <div  class="col-md-3">
+							 <div class="col-md-12">
+							 <img src="images/setting/boy5.jpg" id="selected-img" class="rounded-circle">
+							</div>
+							<div class="col-md-12 p-5">
+							<!-- Button trigger modal to select profile avatar -->
+							<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalCenter">
+							تعديل
+							</button>
+							</div>
+							<!-- Modal -->
+							<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content">
+							<div class="modal-header">
+							<h5 class="modal-title text-muted" id="exampleModalCenterTitle">أختر صوره</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							</div>
+							<div class="modal-body">
+							<div class="container">
+								<div class="row d-flex justify-content-around">
+									<div class="col-md-3 ">
+										<img src="images/setting/boy.jpg" class="img-fluid">
+									</div>
+									<div class="col-md-3">
+											<img src="images/setting/boy2.jpg" class="img-fluid">
+									</div>
+									<div class="col-md-3">
+											<img src="images/setting/boy5.jpg" class="img-fluid">
+									</div>
+									<div class="col-md-3">
+											<img src="images/setting/boy4.jpg" class="img-fluid">
+									</div>
+									<div class="col-md-3">
+										<img src="images/setting/girl.jpg" class="img-fluid">
+									</div>
+									<div class="col-md-3">
+											<img src="images/setting/girl2.jpg" class="img-fluid">
+									</div>
+									<div class="col-md-3">
+											<img src="images/setting/girl3.jpg" class="img-fluid">
+									</div>
+									<div class="col-md-3">
+											<img src="images/setting/girl5.jpg" class="img-fluid">
+									</div>	
+								</div>
+							</div>
+							</div>
+							<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">أغلاق</button>
+							<button type="button" class="btn btn-danger" data-dismiss="modal">حفظ</button>
+							</div>
+							</div>
+							</div>
+							</div>
+							</div>
+							 <!-- editting form -->
+							 <div class="col-md-6">
+								<form class="px-5 pt-5 pb-3">
+									<div class="form-row">
+									<div class="form-group col-md-12">
+										<label >الاسم</label>
+										<input type="text" class="form-control form-costumization" id="inputName" placeholder="تعديل الاسم">
+									</div>
+									<div class="form-group col-md-12">
+										<label for="inputPassword4">رقم الهاتف</label>
+										<input type="text" class="form-control form-costumization" id="inputTele" placeholder="+002">
+									</div>
+									</div>
+									<div class="form-group">
+									<label for="inputAddress">البريد الايكتروني</label>
+									<input type="email" class="form-control form-costumization" id="inputEmail" placeholder="تعديل البريد الايكتروني">
+									</div>
+									<div class="form-row">
+									<div class="form-group col-md-6">
+											<label for="inputState">المحافظه</label>
+												<select id="inputState" class="form-control form-costumization">
+													<option selected>القاهره</option>
+													<option>الجيزه</option>
+													<option>الاسكندريه</option>
+													<option>الشرقيه</option>
+													<option>مرسي مطروح</option>
+												</select>
+									</div>
+									<div class="form-group col-md-6">
+										<label for="inputRegion">المنطقه</label>
+										<select id="inputRegion" class="form-control form-costumization">
+										<option selected>الدقي</option>
+										<option>6 اكتوبر</option>
+										<option>العاشر من رمضان</option>
+										<option>شبرا</option>
+										<option>مصر الجديده</option>
+										</select>
+									</div>
+									</div>
+							
+										<div class="form-row">
+										<div class="form-group col-md-6">
+											<div class="form-check col-lg-12">
+												<p> الجنس</p>
+												<div>
+													<div class="float-right">
+												<label class="form-check-label mr-4" >ذكر</label>
+												<input class="form-check-input" name="gender" type="radio">  
+												</div>
+												<label class="form-check-label mr-4 ">انثي</label>
+												<input class="form-check-input " name="gender" type="radio"> 
+											</div>
+											<div class="clearfix"></div>
+											</div>
+										</div>
+										<div class="form-group col-md-6">
+												<div class="form-check col-lg-12">
+													<p> العمر</p>            
+													<input type="text" class="form-control form-costumization" id="inputAge" placeholder="السن">                 
+												</div>
+												</div>
+										</div>
+								
+									<div class="form-group col-md-6">
+										<label for="inputBlood">فصيله الدم</label>
+										<select id="inputBlood" class="form-control form-costumization">
+											<option selected>A+</option>
+											<option>AB+</option>
+											<option>B+</option>
+											<option>O+</option>
+											<option>A-</option>
+											<option>AB-</option>
+											<option>B-</option>
+											<option>O-</option>
+										</select>
+									</div>     
+									<div  class="col-md-12 text-center">
+										<a href="setting.html" >
+											<button type="submit" id="edite-btn" class="btn btn-danger my-3 px-5 w-100">تم</button>
+										</a>
+										<div class="clearfix"></div>
+									</div>
+								</form>
+							</div>
+							<!-- left side img  -->
+						 	<div class="col-md-3 ">
+							 <img src="images/setting/left-side.jpg" class="img-fluid">
+						 	</div>
+					 </div>
+				 </div>
+			 </section> 
+			  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
+        <script src="JS/jquery-3.4.1.min.js"> </script>
+        <script src="JS/popper.min.js"></script>
+		<script src="JS/bootstrap.min.js"></script>
+        <script src="JS/index.js"></script>
+
+	
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
